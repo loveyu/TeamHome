@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ /TeamHome/index.php [L]
+
+RewriteCond $1 !^(index\.php|avata|jquery|js|kindeditor|install|plugins|style|attached|tool|user|robots\.txt|login\.php|view\.php|register\.php|registering\.php|logout\.php|favicon\.ico|login_json\.php)
+RewriteRule ^(.*)$ /TeamHome/index.php [L]
