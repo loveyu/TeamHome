@@ -61,7 +61,7 @@
 			return $s;
 		}
 		else{
-			return mysql_real_escape_string($s);
+			return mysqli_real_escape_string($GLOBALS['mysqli_link'],$s);
 		}
 	}
 
