@@ -60,6 +60,7 @@
 			$this->con = mysqli_connect($this->config['hostname'], $this->config['username'], $this->config['password']);
 			if(!$this->con)
 				$this->debug("数据库连接错误", true);
+			$GLOBALS['mysqli_link'] = $this->con;
 			mysqli_query($this->con,'SET NAMES ' . $this->config['char_set']);
 			mysqli_query($this->con,'SET CHARACTER_SET_CLIENT=' . $this->config['char_set']);
 			mysqli_query($this->con,'SET CHARACTER_SET_RESULTS=' . $this->config['char_set']);
