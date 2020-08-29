@@ -1,1516 +1,1820 @@
 @charset "utf-8";
 /* CSS Document */
 * {
-	padding: 0px;
-	margin: 0px;
+    padding: 0px;
+    margin: 0px;
 }
+
 .clear {
-	clear: both;
+    clear: both;
 }
+
 a {
-	text-decoration: none;
+    text-decoration: none;
 }
+
 ul {
-	list-style-type: none;
+    list-style-type: none;
 }
+
 table {
-	border-collapse: collapse;
+    border-collapse: collapse;
 }
+
 #zhixing {
-	/* 知行body标签 */
-	padding: 0px;
-	margin: 0px;
-	background-color: #F0F3F0;
-	font-family: Tahoma, Arial, "微软雅黑", "黑体", "宋体";
+    /* 知行body标签 */
+    padding: 0px;
+    margin: 0px;
+    background-color: #F0F3F0;
+    font-family: Tahoma, Arial, "微软雅黑", "黑体", "宋体";
 }
+
 #container {
-	/*包含全部的容器*/
-	background-color: #eaeaea;
-	margin: 0px auto 0px auto;
-	width: 100%;
-	overflow:hidden;
-	height: auto;
+    /*包含全部的容器*/
+    background-color: #eaeaea;
+    margin: 0px auto 0px auto;
+    width: 100%;
+    overflow: hidden;
+    height: auto;
 }
+
 #header {
-	/* 头部样式 */
-	background-color: #000000;
-	width: 100%;
-	overflow: hidden;
+    /* 头部样式 */
+    background-color: #000000;
+    width: 100%;
+    overflow: hidden;
 }
+
 #header .logo {
-	/* 头部logo样式 */
-	width: 282px;
-	height: 45px;
-	padding: 0px;
-	float: left;
-	margin: 5px 0px 5px 20px;
+    /* 头部logo样式 */
+    width: 282px;
+    height: 45px;
+    padding: 0px;
+    float: left;
+    margin: 5px 0px 5px 20px;
 }
-#header .logo h1 a{
-	display:block;
-	background-image: url(admin/logo.png);
-	height: 45px;
-	width:282px;
-	background-repeat: no-repeat;
+
+#header .logo h1 a {
+    display: block;
+    background-image: url(admin/logo.png);
+    height: 45px;
+    width: 282px;
+    background-repeat: no-repeat;
 }
+
 #header .logo span {
-	height: 48px;
-	width:282px;
-	font-size:0px;
+    height: 48px;
+    width: 282px;
+    font-size: 0px;
 }
+
 #header .login {
-	/* 头部登陆注册样式 */
-	height: 30px;
-	padding: 2px;
-	margin: 0px 15px auto 0px;
-	text-align: center;
-	float: right;
+    /* 头部登陆注册样式 */
+    height: 30px;
+    padding: 2px;
+    margin: 0px 15px auto 0px;
+    text-align: center;
+    float: right;
 }
+
 #header .login p {
-	color: #CCC;
-	margin: 5px auto 5px auto;
+    color: #CCC;
+    margin: 5px auto 5px auto;
 }
+
 #header .login a {
-	color: #CCC;
+    color: #CCC;
 }
+
 #header .nav {
-	float: left;
-	height: 44px;
-	margin: 11px 0px 11px 30px;
-	padding: 0px;
+    float: left;
+    height: 44px;
+    margin: 11px 0px 11px 30px;
+    padding: 0px;
 }
+
 #header .nav ul {
-	list-style-type: none;
+    list-style-type: none;
 }
+
 #header .nav li {
-	float: left;
-	background-image: url(admin/bg_01.png);
-	background-repeat: no-repeat;
-	width: 82px;
-	height: 42px;
-	margin: 0 0 0 25px;
-	font-size: 34px;
-	text-align: center;
-	color: #fff;
+    float: left;
+    background-image: url(admin/bg_01.png);
+    background-repeat: no-repeat;
+    width: 82px;
+    height: 42px;
+    margin: 0 0 0 25px;
+    font-size: 34px;
+    text-align: center;
+    color: #fff;
 }
+
 #left_nv1 {
-	position:absolute;
-	top:0px;
-	left:0px;
-	width: 190px;
-	-webkit-box-shadow: 0 0 10px black;
-	-moz-box-shadow: 0 0 10px black;
-	background-color: #E2EAD9;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 190px;
+    -webkit-box-shadow: 0 0 10px black;
+    -moz-box-shadow: 0 0 10px black;
+    background-color: #E2EAD9;
 }
+
 #left_nv2 {
-	background-color: #EEE;
-	padding: 0;
-	margin: 0 auto 0 0;
-	width: 98%;
-	height: auto;
+    background-color: #EEE;
+    padding: 0;
+    margin: 0 auto 0 0;
+    width: 98%;
+    height: auto;
 }
+
 .menu {
-	background-color: #E9F5F4;
-	margin: 5px 0 5px 0;
-	padding: 0px;
-	height: auto;
-	width: 100%;
+    background-color: #E9F5F4;
+    margin: 5px 0 5px 0;
+    padding: 0px;
+    height: auto;
+    width: 100%;
 }
+
 .menu-title {
-	font-size: 20px;
-	background-color: #7ca345;
-	height: 32px;
-	width: 102%;
-	-webkit-box-shadow: 0 0 5px black;
-	-moz-box-shadow: 0 0 5px black;
-	letter-spacing: 3px;
-	background-image: url(admin/menu_bg.png);
-	background-repeat: no-repeat;
-	background-position: right center;
+    font-size: 20px;
+    background-color: #7ca345;
+    height: 32px;
+    width: 102%;
+    -webkit-box-shadow: 0 0 5px black;
+    -moz-box-shadow: 0 0 5px black;
+    letter-spacing: 3px;
+    background-image: url(admin/menu_bg.png);
+    background-repeat: no-repeat;
+    background-position: right center;
 }
+
 .menu-title a {
-	color: #FFF;
-	display: block;
-	line-height: 32px;
-	padding-left: 10px;
-	margin-right: 80px;
-	text-decoration: none;
+    color: #FFF;
+    display: block;
+    line-height: 32px;
+    padding-left: 10px;
+    margin-right: 80px;
+    text-decoration: none;
 }
+
 .menu_sub_now {
-	background-color: #C4E1D8;
+    background-color: #C4E1D8;
 }
-.menu_now .menu-title{
-	background-color: #333;
+
+.menu_now .menu-title {
+    background-color: #333;
 }
+
 .sub-menu {
-	margin: 5px 0 5px 0;
-	display:none;
+    margin: 5px 0 5px 0;
+    display: none;
 }
-.menu_now .sub-menu{
-	display:block;
+
+.menu_now .sub-menu {
+    display: block;
 }
+
 .sub-menu li {
-	font-size: 17px;
-	color: #00C;
-	margin: 1px 0px 1px 0px;
-	padding: 3px 3px 3px 18px;
+    font-size: 17px;
+    color: #00C;
+    margin: 1px 0px 1px 0px;
+    padding: 3px 3px 3px 18px;
 }
+
 .sub-menu a {
-	display: block;
-	margin: 0px;
-	padding: 0px;
-	height: 100%;
-	width: 100%;
-	color: #03C;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    color: #03C;
 }
+
 .sub-menu li:hover {
-	background-color: #A7E0A7;
+    background-color: #A7E0A7;
 }
+
 #zxcontent {
-	width:700px;
-	position:absolute;
-	top:0px;
-	left:200px;
+    width: 700px;
+    position: absolute;
+    top: 0px;
+    left: 200px;
 }
-#zxbody{
-	width:100%;
+
+#zxbody {
+    width: 100%;
 }
+
 #admin_body {
-	margin: 0px auto 0px auto;
-	padding: 0px;
-	height: auto;
-	width: 99.9%;
-	text-align: center;
+    margin: 0px auto 0px auto;
+    padding: 0px;
+    height: auto;
+    width: 99.9%;
+    text-align: center;
 }
+
 #footer {
-	width: 100%;
-	height: 60px;
-	margin: 0px auto 0px auto;
-	background-color: #7ca345;
-	background-image: url(admin/bg_05.png);
-	background-repeat: no-repeat;
-	background-position: left;
+    width: 100%;
+    height: 60px;
+    margin: 0px auto 0px auto;
+    background-color: #7ca345;
+    background-image: url(admin/bg_05.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
-#footer .content{
-	margin:0px 0px 0px 69px;
-	padding:13px 0px 13px 5px;
+
+#footer .content {
+    margin: 0px 0px 0px 69px;
+    padding: 13px 0px 13px 5px;
 }
-#footer .content p{
-	line-height:32px;
-	font-size:16px;
-	padding-left:15px;
+
+#footer .content p {
+    line-height: 32px;
+    font-size: 16px;
+    padding-left: 15px;
 }
+
 /** 用户中心首页  **/
 div#user_center {
-	padding: 5px;
-	background-color: #F8FCE9;
+    padding: 5px;
+    background-color: #F8FCE9;
 }
+
 div#user_center h3 {
-	text-align: left;
-	margin-left: 15px;
-	font-size: 23px;
-	font-weight: 300;
-	color: #00C;
+    text-align: left;
+    margin-left: 15px;
+    font-size: 23px;
+    font-weight: 300;
+    color: #00C;
 }
+
 div#user_center p.error {
-	color: #F00;
-	font-size: 1.3em;
-	padding: 3px;
+    color: #F00;
+    font-size: 1.3em;
+    padding: 3px;
 }
+
 div#user_center table.main_table {
-	width: 100%;
+    width: 100%;
 }
+
 div#user_center table.main_table .td1 {
-	border-bottom: #7ca345 solid 1px;
-	border-right: #7ca345 solid 1px;
+    border-bottom: #7ca345 solid 1px;
+    border-right: #7ca345 solid 1px;
 }
+
 div#user_center table.main_table .td2 {
-	border-bottom: #7ca345 solid 1px;
+    border-bottom: #7ca345 solid 1px;
 }
+
 div#user_center table.main_table .td3 {
-	border-right: #7ca345 solid 1px;
+    border-right: #7ca345 solid 1px;
 }
+
 div#user_center table.main_table .td4 {
-	padding: 10px 0px 10px 10px;
+    padding: 10px 0px 10px 10px;
 }
+
 div#user_center table.main_table .sub_table {
-	width: 100%;
+    width: 100%;
 }
+
 div#user_center table.main_table .sub_table tr {
-	height: 30px;
+    height: 30px;
 }
+
 div#user_center table.main_table .sub_table th {
-	text-align: right;
-	padding-right: 20px;
-	color: #003;
+    text-align: right;
+    padding-right: 20px;
+    color: #003;
 }
+
 div#user_center table.main_table .sub_table td {
-	text-align: left;
+    text-align: left;
 }
+
 div#user_center table.main_table .sub_table p {
-	padding: 2px;
-	color: #906;
+    padding: 2px;
+    color: #906;
 }
+
 /** 详细个人信息编辑 **/
 div#user_center form.user_edit th {
-	padding: 10px 15px 5px 30px;
-	text-align: left;
-	font-weight: normal;
-	font-size: 1em;
-	color: #003;
+    padding: 10px 15px 5px 30px;
+    text-align: left;
+    font-weight: normal;
+    font-size: 1em;
+    color: #003;
 }
+
 div#user_center form.user_edit td p {
-	color: #666;
-	padding: 3px;
+    color: #666;
+    padding: 3px;
 }
+
 div#user_center form.user_edit td {
-	font-size: 1em;
-	padding: 10px 0px 5px 10px;
-	color: #09F;
-	text-align: left;
+    font-size: 1em;
+    padding: 10px 0px 5px 10px;
+    color: #09F;
+    text-align: left;
 }
+
 div#user_center form.user_edit input {
-	height: 22px;
-	border: #999 solid 1px;
-	padding: 2px;
-	font-size: 18px;
-	color: #6F9416;
-	background-color: #F8FCE9;
-	width: 300px;
+    height: 22px;
+    border: #999 solid 1px;
+    padding: 2px;
+    font-size: 18px;
+    color: #6F9416;
+    background-color: #F8FCE9;
+    width: 300px;
 }
+
 div#user_center form.user_edit select {
-	border: #999 solid 1px;
+    border: #999 solid 1px;
 }
+
 div#user_center form.user_edit textarea {
-	width: 300px;
-	height: 80px;
-	border: #999 solid 1px;
-	background-color: #F8FCE9;
+    width: 300px;
+    height: 80px;
+    border: #999 solid 1px;
+    background-color: #F8FCE9;
 }
+
 div#user_center form.user_edit button {
-	background-color: #06CC38;
-	color: #FFF;
-	border: #693 1px solid;
-	padding: 5px;
-	font-size: 0.9em;
+    background-color: #06CC38;
+    color: #FFF;
+    border: #693 1px solid;
+    padding: 5px;
+    font-size: 0.9em;
 }
+
 /** 用户激活样式 **/
 div#user_center table.active {
-	margin: 10px;
+    margin: 10px;
 }
+
 div#user_center table.active th {
-	padding: 10px 15px 5px 30px;
-	text-align: left;
-	font-weight: normal;
-	font-size: 1em;
-	color: #003;
+    padding: 10px 15px 5px 30px;
+    text-align: left;
+    font-weight: normal;
+    font-size: 1em;
+    color: #003;
 }
+
 div#user_center table.active td p {
-	color: #666;
-	padding: 3px;
+    color: #666;
+    padding: 3px;
 }
+
 div#user_center table.active td {
-	font-size: 1em;
-	padding: 10px 0px 5px 10px;
-	color: #09F;
-	text-align: left;
+    font-size: 1em;
+    padding: 10px 0px 5px 10px;
+    color: #09F;
+    text-align: left;
 }
+
 div#user_center table.active input {
-	height: 22px;
-	border: #999 solid 1px;
-	padding: 2px;
-	font-size: 18px;
-	color: #6F9416;
-	background-color: #F8FCE9;
-	width: 200px;
+    height: 22px;
+    border: #999 solid 1px;
+    padding: 2px;
+    font-size: 18px;
+    color: #6F9416;
+    background-color: #F8FCE9;
+    width: 200px;
 }
+
 div#user_center table.active input.error {
-	border: #F00 solid 1px;
-	color: #903;
+    border: #F00 solid 1px;
+    color: #903;
 }
+
 div#user_center table.active .has_active {
-	color: #99C;
+    color: #99C;
 }
+
 div#user_center table.active .warning {
-	color: #F00;
+    color: #F00;
 }
+
 div#user_center table.active .submit {
-	background-color: #06CC38;
-	color: #FFF;
-	border: #693 1px solid;
-	padding: 5px;
-	margin-left: 15px;
-	font-size: 0.9em;
+    background-color: #06CC38;
+    color: #FFF;
+    border: #693 1px solid;
+    padding: 5px;
+    margin-left: 15px;
+    font-size: 0.9em;
 }
+
 div#user_center table.active p.active_info {
-	height: 17px;
-	color: #0CF;
-	font-size: 15px;
-	padding: 1px;
+    height: 17px;
+    color: #0CF;
+    font-size: 15px;
+    padding: 1px;
 }
+
 div#user_center table.active p.error {
-	color: #F00;
-	font-style: italic;
+    color: #F00;
+    font-style: italic;
 }
+
 /** 修改密码页面 **/
 div#user_center .edit_pwd {
-	text-align: left;
-	padding: 15px;
+    text-align: left;
+    padding: 15px;
 }
+
 div#user_center .edit_pwd ul {
-	list-style-type: none;
+    list-style-type: none;
 }
+
 div#user_center .edit_pwd li {
-	margin: 10px;
+    margin: 10px;
 }
+
 div#user_center .edit_pwd li span {
-	color: #0C3;
-	padding: 2px;
-	font-size: 15px;
-	padding-left: 15px;
+    color: #0C3;
+    padding: 2px;
+    font-size: 15px;
+    padding-left: 15px;
 }
+
 div#user_center .edit_pwd li span.error {
-	color: #F00;
+    color: #F00;
 }
+
 div#user_center .edit_pwd button {
-	border: #36C solid 1px;
-	padding: 5px;
-	font-size: 14px;
-	color: #FFF;
-	background-color: #42E61A;
+    border: #36C solid 1px;
+    padding: 5px;
+    font-size: 14px;
+    color: #FFF;
+    background-color: #42E61A;
 }
+
 div#user_center .edit_pwd .notice {
-	color: #93C;
-	border: #CC3 dotted 1px;
-	padding: 2px;
+    color: #93C;
+    border: #CC3 dotted 1px;
+    padding: 2px;
 }
+
 div#user_center .edit_pwd input {
-	margin-top: 5px;
+    margin-top: 5px;
 }
+
 /** 编辑头像 **/
 div#user_center .edit_img {
-	padding: 15px;
-	text-align: left;
+    padding: 15px;
+    text-align: left;
 }
+
 div#user_center .edit_img ul {
-	list-style-type: none;
+    list-style-type: none;
 }
+
 div#user_center .edit_img li {
-	margin-top: 15px;
+    margin-top: 15px;
 }
+
 div#user_center .edit_img img {
-	border: #D2AC11 solid 2px;
-	width: 64px;
-	height: 64px;
+    border: #D2AC11 solid 2px;
+    width: 64px;
+    height: 64px;
 }
+
 div#user_center .edit_img li p {
-	padding-top: 3px;
-	padding-left: 15px;
-	color: #9C6;
+    padding-top: 3px;
+    padding-left: 15px;
+    color: #9C6;
 }
+
 div#user_center .edit_img button {
-	border: #36C solid 1px;
-	padding: 5px;
-	font-size: 14px;
-	color: #FFF;
-	background-color: #42E61A;
+    border: #36C solid 1px;
+    padding: 5px;
+    font-size: 14px;
+    color: #FFF;
+    background-color: #42E61A;
 }
+
 div#user_center .edit_img p.ok {
-	color: #0C3;
-	font-size: 18px;
+    color: #0C3;
+    font-size: 18px;
 }
+
 div#user_center .edit_img span.reload {
-	color: #F00;
-	text-decoration: underline;
+    color: #F00;
+    text-decoration: underline;
 }
+
 /** 修改用户名和邮箱 **/
 div#user_center .eidt_user {
-	margin: 15px;
-	text-align: left;
+    margin: 15px;
+    text-align: left;
 }
+
 div#user_center .eidt_user ul.edit {
-	list-style-type: none;
-	border-left: #0C9 solid 2px;
-	padding-left: 10px;
-	margin-left: 5px;
-	display: none;
+    list-style-type: none;
+    border-left: #0C9 solid 2px;
+    padding-left: 10px;
+    margin-left: 5px;
+    display: none;
 }
+
 div#user_center .eidt_user ul.all {
-	list-style-type: none;
-	border-left: #0C9 solid 2px;
-	padding-left: 10px;
-	margin-left: 5px;
+    list-style-type: none;
+    border-left: #0C9 solid 2px;
+    padding-left: 10px;
+    margin-left: 5px;
 }
+
 div#user_center .eidt_user ul.show {
-	display: inline;
+    display: inline;
 }
+
 div#user_center .eidt_user li {
-	margin-top: 5px;
-	margin-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
+
 div#user_center .eidt_user div {
-	margin: 10px;
-	padding-left: 15px;
-	border-left: #9C3 solid 2px;
+    margin: 10px;
+    padding-left: 15px;
+    border-left: #9C3 solid 2px;
 }
+
 div#user_center .eidt_user button {
-	border: #36C solid 1px;
-	font-size: 14px;
-	color: #000;
-	background-color: #D7DDF9;
-	padding: 2px;
-	margin-left: 4px;
+    border: #36C solid 1px;
+    font-size: 14px;
+    color: #000;
+    background-color: #D7DDF9;
+    padding: 2px;
+    margin-left: 4px;
 }
+
 div#user_center .eidt_user button.submit {
-	border: #36C solid 1px;
-	padding: 5px;
-	font-size: 14px;
-	color: #FFF;
-	background-color: #42E61A;
+    border: #36C solid 1px;
+    padding: 5px;
+    font-size: 14px;
+    color: #FFF;
+    background-color: #42E61A;
 }
+
 div#user_center #edit_user_name_check_box, div#user_center #edit_user_email_check_box {
-	margin-right: 5px;
+    margin-right: 5px;
 }
+
 div#user_center .eidt_user span {
-	color: #036;
+    color: #036;
 }
+
 div#user_center .eidt_user span.span_notice {
-	padding: 5px;
-	font-size: 0.9em;
-	color: #39F;
+    padding: 5px;
+    font-size: 0.9em;
+    color: #39F;
 }
+
 div#user_center .eidt_user span.error {
-	color: #F00;
-	font-style: italic;
+    color: #F00;
+    font-style: italic;
 }
+
 div#user_center .eidt_user input {
-	height: 19px;
-	border: #888 solid 1px;
+    height: 19px;
+    border: #888 solid 1px;
 }
+
 div#user_center .eidt_user .require {
-	color: #B00;
-	margin-left: 10px;
+    color: #B00;
+    margin-left: 10px;
 }
+
 div#user_center .eidt_user #vnemail_info {
-	color: #B00;
-	margin-left: 10px;
+    color: #B00;
+    margin-left: 10px;
 }
+
 div#user_center .eidt_user p.notice {
-	margin-left: 5px;
-	color: #0C6;
-	padding: 2px;
+    margin-left: 5px;
+    color: #0C6;
+    padding: 2px;
 }
+
 div#user_center .eidt_user p.error_notice {
-	margin-left: 5px;
-	color: #F00;
-	padding: 2px;
+    margin-left: 5px;
+    color: #F00;
+    padding: 2px;
 }
+
 div#user_center .eidt_user p.help {
-	color: #990;
-	padding: 2px;
-	margin: 5px;
-	border: #633 dotted 1px;
+    color: #990;
+    padding: 2px;
+    margin: 5px;
+    border: #633 dotted 1px;
 }
+
 /**个人主页**/
 div#web_center {
-	padding: 5px;
-	background-color: #ECF9ED;
-	text-align: left;
+    padding: 5px;
+    background-color: #ECF9ED;
+    text-align: left;
 }
+
 div#web_center h3 {
-	color: #3C6;
-	padding: 5px;
-	font-size: 18px;
+    color: #3C6;
+    padding: 5px;
+    font-size: 18px;
 }
+
 div#web_center p.notice {
-	border: #999 dotted 1px;
-	color: #039;
-	margin: 5px;
-	padding: 3px;
+    border: #999 dotted 1px;
+    color: #039;
+    margin: 5px;
+    padding: 3px;
 }
+
 /** 预览页面 **/
 div#web_center div.index {
-	margin: 5px;
+    margin: 5px;
 }
+
 div#web_center div.index p {
-	padding-bottom: 10px;
-	font-size: 16px;
+    padding-bottom: 10px;
+    font-size: 16px;
 }
+
 div#web_center div.index iframe {
-	border: #888 solid 2px;
-	background-color: #FFF;
-	width: 99.9%;
-	height: 600px;
+    border: #888 solid 2px;
+    background-color: #FFF;
+    width: 99.9%;
+    height: 600px;
 }
+
 /** 文件管理 **/
 div#web_center table.file_m {
-	margin: 5px;
-	width: 99.9%;
-	border: #999 solid 1px;
+    margin: 5px;
+    width: 99.9%;
+    border: #999 solid 1px;
 }
+
 div#web_center table.file_m a:visited, div#web_center table.file_m a:active, div#web_center table.file_m a:link {
-	color: #39F;
+    color: #39F;
 }
+
 div#web_center table.file_m a:hover {
-	color: #03C;
+    color: #03C;
 }
+
 div#web_center table.file_m th {
-	font-size: 16px;
-	color: #939;
-	padding: 5px;
-	text-align: left;
+    font-size: 16px;
+    color: #939;
+    padding: 5px;
+    text-align: left;
 }
+
 div#web_center table.file_m td {
-	padding: 5px;
+    padding: 5px;
 }
+
 div#web_center table.file_m .last_path {
-	padding: 5px;
-	color: #FFF;
-	font-size: 17px;
-	background-color: #BBB;
+    padding: 5px;
+    color: #FFF;
+    font-size: 17px;
+    background-color: #BBB;
 }
+
 div#web_center table.file_m td.last_path a {
-	color: #000;
+    color: #000;
 }
+
 div#web_center table.file_m .tr_0 {
-	background-color: #E3DDC6;
+    background-color: #E3DDC6;
 }
+
 div#web_center table.file_m .tr_1 {
-	background-color: #CBF4BF;
+    background-color: #CBF4BF;
 }
+
 div#web_center table.file_m .no_file {
-	color: #F00;
-	font-size: 18px;
-	background: #CCC;
-	text-align: center;
+    color: #F00;
+    font-size: 18px;
+    background: #CCC;
+    text-align: center;
 }
+
 div#web_center table.file_m tr.tr_1:hover, div#web_center table.file_m tr.tr_0:hover {
-	background-color: #FCF;
+    background-color: #FCF;
 }
+
 div#web_center .creat {
-	margin: 5px 0px 5px 5px;
-	padding: 5px;
-	background-color: #EBECFC;
+    margin: 5px 0px 5px 5px;
+    padding: 5px;
+    background-color: #EBECFC;
 }
+
 div#web_center ul {
-	list-style-type: none;
+    list-style-type: none;
 }
+
 div#web_center ul li {
-	padding: 5px;
-	color: #06C;
+    padding: 5px;
+    color: #06C;
 }
+
 div#web_center button {
-	border: #036 solid 1px;
-	background-color: #EFFAE7;
-	font-size: 16pxpx;
-	padding: 3px 10px 3px 10px;
+    border: #036 solid 1px;
+    background-color: #EFFAE7;
+    font-size: 16 pxpx;
+    padding: 3px 10px 3px 10px;
 }
+
 div#web_center .edit_error {
-	padding: 15px;
-	background-color: #F3EAF4;
-	color: #F00;
-	margin: 5px;
-	font-size: 24px;
+    padding: 15px;
+    background-color: #F3EAF4;
+    color: #F00;
+    margin: 5px;
+    font-size: 24px;
 }
+
 div#web_center form.edit_charset {
-	margin: 5px;
-	text-align: right;
+    margin: 5px;
+    text-align: right;
 }
+
 div#web_center form.edit_charset select {
-	height: 25px;
-	margin-right: 10px;
-	border: #999 solid 1px;
+    height: 25px;
+    margin-right: 10px;
+    border: #999 solid 1px;
 }
+
 div#web_center form.edit {
-	margin: 5px;
+    margin: 5px;
 }
+
 div#web_center .file_info {
-	text-align: right;
-	padding: 2px;
-	margin-bottom: 3px;
-	color: #099;
-	border: #999 solid 1px;
+    text-align: right;
+    padding: 2px;
+    margin-bottom: 3px;
+    color: #099;
+    border: #999 solid 1px;
 }
+
 div#web_center .file_info span {
-	margin-right: 30px;
-	margin-left: 5px;
-	text-decoration: underline;
-	color: #063;
+    margin-right: 30px;
+    margin-left: 5px;
+    text-decoration: underline;
+    color: #063;
 }
+
 div#web_center .file_info .submit {
-	margin-right: 15px;
-	background-color: #A9E67B;
-	font-size: 16px;
+    margin-right: 15px;
+    background-color: #A9E67B;
+    font-size: 16px;
 }
+
 div#web_center .rename li {
-	border-left: #06C solid 2px;
-	margin: 10px 0px 10px 5px;
-	padding: 0px 0px 0px 10px;
+    border-left: #06C solid 2px;
+    margin: 10px 0px 10px 5px;
+    padding: 0px 0px 0px 10px;
 }
+
 div#web_center .rename input {
-	border: #666 solid 1px;
-	padding: 1px;
-	height: 18px;
-	margin-left: 5px;
+    border: #666 solid 1px;
+    padding: 1px;
+    height: 18px;
+    margin-left: 5px;
 }
+
 div#web_center .rename li p {
-	color: #960;
-	font-style: italic;
-	padding-left: 15px;
+    color: #960;
+    font-style: italic;
+    padding-left: 15px;
 }
+
 /** 图片上传 **/
 div#web_center #J_selectImage {
-	border: #666 solid 1px;
-	background-color: #C6EFB6;
-	font-size: 15px;
-	padding: 2px;
-	margin: 10px 0px 10px 5px;
+    border: #666 solid 1px;
+    background-color: #C6EFB6;
+    font-size: 15px;
+    padding: 2px;
+    margin: 10px 0px 10px 5px;
 }
+
 /** 分类管理 **/
 /** 附加分组管理 **/
 div#category_center, div#group_center {
-	padding: 5px;
-	background-color: #ECF9ED;
-	text-align: left;
+    padding: 5px;
+    background-color: #ECF9ED;
+    text-align: left;
 }
+
 div#category_center h3, div#group_center h3 {
-	color: #3C6;
-	padding: 5px;
-	font-size: 18px;
+    color: #3C6;
+    padding: 5px;
+    font-size: 18px;
 }
+
 div#category_center .no_found, div#group_center .no_found {
-	font-size: 19px;
-	background-color: #FCF8F8;
-	padding: 5px;
-	margin: 5px;
-	color: #F00;
+    font-size: 19px;
+    background-color: #FCF8F8;
+    padding: 5px;
+    margin: 5px;
+    color: #F00;
 }
+
 div#category_center table.list, div#group_center table.list {
-	width: 99.9%;
-	border: #999 solid 1px;
-	margin: 5px;
+    width: 99.9%;
+    border: #999 solid 1px;
+    margin: 5px;
 }
+
 div#category_center table.list thead, div#group_center table.list thead {
-	text-align: left;
+    text-align: left;
 }
+
 div#category_center table.list thead tr, div#group_center table.list thead tr {
-	text-align: left;
+    text-align: left;
 }
+
 div#category_center table.list tbody, div#group_center table.list tbody {
-	text-align: left;
-	background-color: #F8F8E9;
+    text-align: left;
+    background-color: #F8F8E9;
 }
+
 div#category_center table.list td, div#category_center table.list th, div#group_center table.list td, div#group_center table.list th {
-	padding: 2px;
+    padding: 2px;
 }
+
 div#category_center table.list tr:hover, div#group_center table.list tr:hover {
-	background-color: #FCF;
+    background-color: #FCF;
 }
+
 div#category_center table.list .tr_0, div#group_center table.list .tr_0 {
-	background-color: #E3DDC6;
+    background-color: #E3DDC6;
 }
+
 div#category_center table.list .tr_1, div#group_center table.list .tr_1 {
-	background-color: #CBF4BF;
+    background-color: #CBF4BF;
 }
+
 div#category_center table.list .no_category, div#group_center table.list .no_category {
-	color: #F00;
-	font-size: 18px;
-	background: #CCC;
-	text-align: center;
+    color: #F00;
+    font-size: 18px;
+    background: #CCC;
+    text-align: center;
 }
+
 div#category_center .creat {
-	padding: 5px;
-	border: #D5EDCD dotted 1px;
-	margin: 5px;
-	background-color: #FEE;
+    padding: 5px;
+    border: #D5EDCD dotted 1px;
+    margin: 5px;
+    background-color: #FEE;
 }
+
 div#category_center .creat a {
-	border: #09F solid 1px;
-	padding: 2px;
+    border: #09F solid 1px;
+    padding: 2px;
 }
+
 /** 创建分类 **/
 div#category_center .new {
-	margin: 5px;
-	background-color: #E8FDEC;
+    margin: 5px;
+    background-color: #E8FDEC;
 }
+
 div#category_center .new p.title {
-	padding: 5px;
-	text-align: left;
-	border: #E0F5D8 solid 1px;
-	background-color: #FFFFEC;
-	margin-bottom: 3px;
+    padding: 5px;
+    text-align: left;
+    border: #E0F5D8 solid 1px;
+    background-color: #FFFFEC;
+    margin-bottom: 3px;
 }
+
 div#category_center .new table {
-	margin: 5px;
+    margin: 5px;
 }
+
 div#category_center .new td {
-	padding: 2px;
+    padding: 2px;
 }
+
 div#category_center .new span {
-	font-size: 18px;
-	color: #F93;
-	margin-left: 10px;
-	margin-right: 10px;
+    font-size: 18px;
+    color: #F93;
+    margin-left: 10px;
+    margin-right: 10px;
 }
+
 div#category_center .new th {
-	text-align: right;
-	font-weight: normal;
+    text-align: right;
+    font-weight: normal;
 }
+
 div#category_center .new input {
-	height: 20px;
-	border: #99C solid 1px;
-	font-size: 18px;
-	padding: 1px;
+    height: 20px;
+    border: #99C solid 1px;
+    font-size: 18px;
+    padding: 1px;
 }
+
 div#category_center .new textarea {
-	height: 100px;
-	width: 300px;
-	border: #99C solid 1px;
-	padding: 2px;
-	font-size: 18px;
+    height: 100px;
+    width: 300px;
+    border: #99C solid 1px;
+    padding: 2px;
+    font-size: 18px;
 }
+
 div#category_center .new .submit {
-	width: 100px;
-	background-color: #BAF5C9;
-	padding: 5px;
-	font-size: 18px;
-	color: #00C;
-	border: #066 solid 1px;
+    width: 100px;
+    background-color: #BAF5C9;
+    padding: 5px;
+    font-size: 18px;
+    color: #00C;
+    border: #066 solid 1px;
 }
+
 /**  新闻中心  **/
 div#new_center {
-	padding: 5px;
-	background-color: #ECF9ED;
-	text-align: left;
+    padding: 5px;
+    background-color: #ECF9ED;
+    text-align: left;
 }
+
 div#new_center h3 {
-	color: #3C6;
-	padding: 5px;
-	font-size: 18px;
+    color: #3C6;
+    padding: 5px;
+    font-size: 18px;
 }
+
 div#new_center .no_found {
-	font-size: 19px;
-	background-color: #FCF8F8;
-	padding: 5px;
-	margin: 5px;
-	color: #F00;
+    font-size: 19px;
+    background-color: #FCF8F8;
+    padding: 5px;
+    margin: 5px;
+    color: #F00;
 }
+
 div#new_center table.list {
-	width: 99.9%;
-	border: #999 solid 1px;
-	margin: 5px;
+    width: 99.9%;
+    border: #999 solid 1px;
+    margin: 5px;
 }
+
 div#new_center table.list thead {
-	text-align: left;
+    text-align: left;
 }
+
 div#new_center table.list thead tr {
-	text-align: left;
+    text-align: left;
 }
+
 div#new_center table.list tbody {
-	text-align: left;
-	background-color: #F8F8E9;
+    text-align: left;
+    background-color: #F8F8E9;
 }
+
 div#new_center table.list td, div#new_center table.list th {
-	padding: 2px;
+    padding: 2px;
 }
+
 div#new_center table.list tr:hover {
-	background-color: #FCF;
+    background-color: #FCF;
 }
+
 div#new_center table.list .tr_0 {
-	background-color: #E3DDC6;
+    background-color: #E3DDC6;
 }
+
 div#new_center table.list .tr_1 {
-	background-color: #CBF4BF;
+    background-color: #CBF4BF;
 }
+
 /** page_list 页面底部分页导航 **/
 div#nav_list {
-	text-align: center;
-	padding: 10px;
+    text-align: center;
+    padding: 10px;
 }
+
 div#nav_list .list {
-	border: #C9C solid 1px;
-	background-color: #EBDEF3;
-	font-size: 15px;
-	padding: 2px;
-	margin-left: 10px;
+    border: #C9C solid 1px;
+    background-color: #EBDEF3;
+    font-size: 15px;
+    padding: 2px;
+    margin-left: 10px;
 }
+
 div#nav_list .now {
-	border: #900 dotted 1px;
-	background-color: #C2EDBC;
-	font-size: 16px;
-	color: #C03;
+    border: #900 dotted 1px;
+    background-color: #C2EDBC;
+    font-size: 16px;
+    color: #C03;
 }
+
 div#nav_list a:hover {
-	border: #639 solid 1px;
-	background-color: #FCF0FF;
-	padding: 3px;
+    border: #639 solid 1px;
+    background-color: #FCF0FF;
+    padding: 3px;
 }
+
 /** 发布新闻 **/
 div#new_center div.title {
-	color: #000;
-	font-size: 18px;
-	padding: 2px;
-	background-color: #CCF7CC;
-	margin-bottom: 10px;
-	margin-top: 10px;
+    color: #000;
+    font-size: 18px;
+    padding: 2px;
+    background-color: #CCF7CC;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
+
 div#new_center div.title input {
-	height: 20px;
-	padding: 2px;
-	font-size: 16px;
-	border: #666 solid 1px;
-	background-color: #ECF9ED;
-	margin-left: 10px;
-	width: 300px;
+    height: 20px;
+    padding: 2px;
+    font-size: 16px;
+    border: #666 solid 1px;
+    background-color: #ECF9ED;
+    margin-left: 10px;
+    width: 300px;
 }
+
 div#new_center div.type {
-	text-align: right;
-	color: #000;
-	font-size: 15px;
-	padding: 2px;
-	background-color: #CCF7CC;
-	margin-bottom: 10px;
+    text-align: right;
+    color: #000;
+    font-size: 15px;
+    padding: 2px;
+    background-color: #CCF7CC;
+    margin-bottom: 10px;
 }
+
 div#new_center div.type label {
-	margin-left: 10px;
+    margin-left: 10px;
 }
+
 div#new_center div.type .submit {
-	width: 80px;
-	background-color: #E2F0C1;
-	padding: 2px;
-	font-size: 16px;
-	color: #603;
-	border: #066 solid 1px;
-	margin-left: 20px;
+    width: 80px;
+    background-color: #E2F0C1;
+    padding: 2px;
+    font-size: 16px;
+    color: #603;
+    border: #066 solid 1px;
+    margin-left: 20px;
 }
+
 /** UI时间选择器 **/
 .ui-timepicker-div .ui-widget-header {
-	margin-bottom: 8px;
+    margin-bottom: 8px;
 }
+
 .ui-timepicker-div dl {
-	text-align: left;
+    text-align: left;
 }
+
 .ui-timepicker-div dl dt {
-	height: 25px;
-	margin-bottom: -25px;
+    height: 25px;
+    margin-bottom: -25px;
 }
+
 .ui-timepicker-div dl dd {
-	margin: 0 10px 10px 65px;
+    margin: 0 10px 10px 65px;
 }
+
 .ui-timepicker-div td {
-	font-size: 90%;
+    font-size: 90%;
 }
+
 .ui-tpicker-grid-label {
-	background: none;
-	border: none;
-	margin: 0;
-	padding: 0;
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
 }
+
 .ui-timepicker-rtl {
-	direction: rtl;
+    direction: rtl;
 }
+
 .ui-timepicker-rtl dl {
-	text-align: right;
+    text-align: right;
 }
+
 .ui-timepicker-rtl dl dd {
-	margin: 0 65px 10px 10px;
+    margin: 0 65px 10px 10px;
 }
+
 /** 用户中心 **/
 div#user_manage {
-	padding: 5px;
-	background-color: #ECF9ED;
-	text-align: left;
+    padding: 5px;
+    background-color: #ECF9ED;
+    text-align: left;
 }
+
 div#user_manage h3 {
-	color: #3C6;
-	padding: 5px;
-	font-size: 18px;
+    color: #3C6;
+    padding: 5px;
+    font-size: 18px;
 }
+
 div#user_manage .no_found {
-	font-size: 19px;
-	background-color: #FCF8F8;
-	padding: 5px;
-	margin: 5px;
-	color: #F00;
+    font-size: 19px;
+    background-color: #FCF8F8;
+    padding: 5px;
+    margin: 5px;
+    color: #F00;
 }
+
 /** 用户中心表格 **/
 div#user_manage table.list {
-	width: 99.9%;
-	border: #999 solid 1px;
-	margin: 5px;
+    width: 99.9%;
+    border: #999 solid 1px;
+    margin: 5px;
 }
+
 div#user_manage table.list thead {
-	text-align: left;
+    text-align: left;
 }
+
 div#user_manage table.list thead tr {
-	text-align: left;
+    text-align: left;
 }
+
 div#user_manage table.list tbody {
-	text-align: left;
-	background-color: #F8F8E9;
+    text-align: left;
+    background-color: #F8F8E9;
 }
+
 div#user_manage table.list td, div#user_manage table.list th {
-	padding: 2px;
+    padding: 2px;
 }
+
 div#user_manage table.list tr:hover {
-	background-color: #FCF;
+    background-color: #FCF;
 }
+
 div#user_manage table.list .tr_0 {
-	background-color: #E3DDC6;
+    background-color: #E3DDC6;
 }
+
 div#user_manage table.list .tr_1 {
-	background-color: #CBF4BF;
+    background-color: #CBF4BF;
 }
+
 /** 新用户 **/
 div#user_manage .new_user {
-	padding: 10px;
-	font-size: 17px;
-	color: #609;
+    padding: 10px;
+    font-size: 17px;
+    color: #609;
 }
+
 div#user_manage .new_user input {
-	padding: 2px;
-	color: #036;
-	margin-left: 5px;
+    padding: 2px;
+    color: #036;
+    margin-left: 5px;
 }
+
 div#user_manage .new_user .submit {
-	border: #036 solid 1px;
-	padding: 3px;
-	margin: 2px;
-	color: #003;
-	background-color: #DBE3FB;
+    border: #036 solid 1px;
+    padding: 3px;
+    margin: 2px;
+    color: #003;
+    background-color: #DBE3FB;
 }
+
 div#user_manage .notice {
-	color: #F63;
-	font-size: 18px;
-	margin-top: 10px;
-	padding: 2px;
-	margin-left: 10px;
+    color: #F63;
+    font-size: 18px;
+    margin-top: 10px;
+    padding: 2px;
+    margin-left: 10px;
 }
+
 div#user_manage .success {
-	color: #3144F2;
-	font-size: 18px;
-	padding: 2px;
-	margin-top: 10px;
-	margin-left: 10px;
+    color: #3144F2;
+    font-size: 18px;
+    padding: 2px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
+
 /* 密码重置 */
 div#user_manage .rest_pwd {
-	padding: 10px;
-	font-size: 17px;
-	color: #609;
+    padding: 10px;
+    font-size: 17px;
+    color: #609;
 }
+
 div#user_manage .rest_pwd input {
-	padding: 2px;
-	color: #036;
-	margin-left: 5px;
+    padding: 2px;
+    color: #036;
+    margin-left: 5px;
 }
+
 div#user_manage .rest_pwd .submit {
-	border: #036 solid 1px;
-	padding: 3px;
-	margin: 2px;
-	color: #003;
-	background-color: #DBE3FB;
+    border: #036 solid 1px;
+    padding: 3px;
+    margin: 2px;
+    color: #003;
+    background-color: #DBE3FB;
 }
+
 /** 修改头像 **/
 div#user_manage .edit_avata {
-	padding: 2px 5px 5px 10px;
+    padding: 2px 5px 5px 10px;
 }
+
 div#user_manage .edit_avata ul {
-	list-style-type: none;
+    list-style-type: none;
 }
+
 div#user_manage .edit_avata li {
-	padding: 5px 0px 5px 0px;
-	color: #63C;
+    padding: 5px 0px 5px 0px;
+    color: #63C;
 }
+
 div#user_manage .edit_avata li span {
-	color: #960;
+    color: #960;
 }
+
 div#user_manage .edit_avata li input, div#user_manage .edit_avata li select {
-	padding: 1px;
-	margin: auto 10px auto 10px;
+    padding: 1px;
+    margin: auto 10px auto 10px;
 }
+
 div#user_manage .edit_avata .submit {
-	border: #036 solid 1px;
-	padding: 3px;
-	margin: 2px;
-	color: #003;
-	background-color: #DBE3FB;
+    border: #036 solid 1px;
+    padding: 3px;
+    margin: 2px;
+    color: #003;
+    background-color: #DBE3FB;
 }
+
 /** 编辑用户信息 **/
 div#user_manage .edit_user_info {
-	padding: 7px;
+    padding: 7px;
 }
+
 div#user_manage .edit_user_info .submit {
-	border: #036 solid 1px;
-	padding: 1px;
-	margin: 2px;
-	color: #003;
-	background-color: #DBE3FB;
+    border: #036 solid 1px;
+    padding: 1px;
+    margin: 2px;
+    color: #003;
+    background-color: #DBE3FB;
 }
+
 /** 删除用户 **/
 div#user_manage .delete {
-	padding: 5px;
+    padding: 5px;
 }
+
 div#user_manage .delete ul {
-	list-style-type: none;
+    list-style-type: none;
 }
+
 div#user_manage .delete li {
-	padding: 5px 0px 5px 0px;
-	color: #63C;
+    padding: 5px 0px 5px 0px;
+    color: #63C;
 }
+
 div#user_manage .delete .submit {
-	border: #036 solid 1px;
-	padding: 1px;
-	margin: 2px;
-	color: #003;
-	background-color: #DBE3FB;
+    border: #036 solid 1px;
+    padding: 1px;
+    margin: 2px;
+    color: #003;
+    background-color: #DBE3FB;
 }
+
 /** 锁定用户 **/
 div#user_manage .lock {
-	padding: 5px;
+    padding: 5px;
 }
+
 div#user_manage .lock ul {
-	list-style-type: none;
+    list-style-type: none;
 }
+
 div#user_manage .lock li {
-	padding: 5px 0px 5px 0px;
-	color: #63C;
+    padding: 5px 0px 5px 0px;
+    color: #63C;
 }
+
 div#user_manage .lock .submit {
-	border: #036 solid 1px;
-	padding: 1px;
-	margin: 2px;
-	color: #003;
-	background-color: #DBE3FB;
+    border: #036 solid 1px;
+    padding: 1px;
+    margin: 2px;
+    color: #003;
+    background-color: #DBE3FB;
 }
+
 /** 编辑用户名和邮箱 **/
 div#user_manage .user {
-	padding: 5px;
+    padding: 5px;
 }
+
 div#user_manage .user ul {
-	list-style-type: none;
+    list-style-type: none;
 }
+
 div#user_manage .user li {
-	padding: 5px 0px 5px 0px;
-	color: #63C;
+    padding: 5px 0px 5px 0px;
+    color: #63C;
 }
+
 div#user_manage .user .submit {
-	border: #036 solid 1px;
-	padding: 1px;
-	margin: 2px;
-	color: #003;
-	background-color: #DBE3FB;
+    border: #036 solid 1px;
+    padding: 1px;
+    margin: 2px;
+    color: #003;
+    background-color: #DBE3FB;
 }
+
 div#user_manage .user span {
-	color: #F63;
-	padding-left: 10px;
+    color: #F63;
+    padding-left: 10px;
 }
+
 /** 修改用户权限 **/
 div#user_manage .power {
-	padding: 5px;
+    padding: 5px;
 }
+
 div#user_manage .power ul {
-	list-style-type: none;
+    list-style-type: none;
 }
+
 div#user_manage .power li {
-	padding: 5px 0px 5px 0px;
-	color: #63C;
+    padding: 5px 0px 5px 0px;
+    color: #63C;
 }
+
 div#user_manage .power .submit {
-	border: #036 solid 1px;
-	padding: 1px;
-	margin: 2px;
-	color: #003;
-	background-color: #DBE3FB;
+    border: #036 solid 1px;
+    padding: 1px;
+    margin: 2px;
+    color: #003;
+    background-color: #DBE3FB;
 }
+
 div#user_manage .power span {
-	color: #F63;
-	padding-left: 10px;
+    color: #F63;
+    padding-left: 10px;
 }
+
 /** 全局 文件管理 **/
 div#file_center {
-	padding: 5px;
-	background-color: #ECF9ED;
-	text-align: left;
+    padding: 5px;
+    background-color: #ECF9ED;
+    text-align: left;
 }
+
 div#file_center h3 {
-	color: #3C6;
-	padding: 5px;
-	font-size: 18px;
+    color: #3C6;
+    padding: 5px;
+    font-size: 18px;
 }
+
 div#file_center table.file_m {
-	margin: 5px auto;
-	width: 99.9%;
-	border: #999 solid 1px;
+    margin: 5px auto;
+    width: 99.9%;
+    border: #999 solid 1px;
 }
+
 div#file_center table.file_m a:visited, div#file_center table.file_m a:active, div#file_center table.file_m a:link {
-	color: #39F;
+    color: #39F;
 }
+
 div#file_center table.file_m a:hover {
-	color: #03C;
+    color: #03C;
 }
+
 div#file_center table.file_m th {
-	font-size: 16px;
-	color: #939;
-	padding: 5px;
-	text-align: left;
+    font-size: 16px;
+    color: #939;
+    padding: 5px;
+    text-align: left;
 }
+
 div#file_center table.file_m td {
-	padding: 5px;
-	text-align: left;
+    padding: 5px;
+    text-align: left;
 }
+
 div#file_center table.file_m .last_path {
-	padding: 5px;
-	color: #FFF;
-	font-size: 17px;
-	background-color: #BBB;
+    padding: 5px;
+    color: #FFF;
+    font-size: 17px;
+    background-color: #BBB;
 }
+
 div#file_center table.file_m td.last_path a {
-	color: #000;
+    color: #000;
 }
+
 div#file_center table.file_m .tr_0 {
-	background-color: #E3DDC6;
+    background-color: #E3DDC6;
 }
+
 div#file_center table.file_m .tr_1 {
-	background-color: #CBF4BF;
+    background-color: #CBF4BF;
 }
+
 div#file_center table.file_m .no_file {
-	color: #F00;
-	font-size: 18px;
-	background: #CCC;
-	text-align: center;
+    color: #F00;
+    font-size: 18px;
+    background: #CCC;
+    text-align: center;
 }
+
 div#file_center table.file_m tr.tr_1:hover, div#file_center table.file_m tr.tr_0:hover {
-	background-color: #FCF;
+    background-color: #FCF;
 }
+
 div#file_center form.creat {
-	float: left;
-	margin: 5px 20px 5px 0;
+    float: left;
+    margin: 5px 20px 5px 0;
 }
+
 div#file_center form.creat input.input {
-	height: 18px;
-	line-height: 18px;
-	font-size: 16px;
-	border: #666 solid 1px;
-	width: 100px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 16px;
+    border: #666 solid 1px;
+    width: 100px;
 }
+
 div#file_center form.creat button {
-	border: #CCC solid 1px;
-	font-size: 14px;
-	padding: 2px 4px;
+    border: #CCC solid 1px;
+    font-size: 14px;
+    padding: 2px 4px;
 }
+
 div#file_center .rename li {
-	border-left: #06C solid 2px;
-	margin: 10px 0px 10px 5px;
-	padding: 0px 0px 0px 10px;
+    border-left: #06C solid 2px;
+    margin: 10px 0px 10px 5px;
+    padding: 0px 0px 0px 10px;
 }
+
 div#file_center .rename input {
-	border: #666 solid 1px;
-	padding: 1px;
-	height: 18px;
-	margin-left: 5px;
+    border: #666 solid 1px;
+    padding: 1px;
+    height: 18px;
+    margin-left: 5px;
 }
+
 div#file_center .rename li p {
-	color: #960;
-	font-style: italic;
-	padding-left: 15px;
+    color: #960;
+    font-style: italic;
+    padding-left: 15px;
 }
+
 div#file_center .edit_error {
-	padding: 15px;
-	background-color: #F3EAF4;
-	color: #F00;
-	margin: 5px;
-	font-size: 24px;
+    padding: 15px;
+    background-color: #F3EAF4;
+    color: #F00;
+    margin: 5px;
+    font-size: 24px;
 }
+
 div#file_center form.edit_charset {
-	margin: 5px;
-	text-align: right;
+    margin: 5px;
+    text-align: right;
 }
+
 div#file_center form.edit_charset select {
-	height: 25px;
-	margin-right: 10px;
-	border: #999 solid 1px;
+    height: 25px;
+    margin-right: 10px;
+    border: #999 solid 1px;
 }
+
 div#file_center form.edit {
-	margin: 5px;
+    margin: 5px;
 }
+
 div#file_center .file_info {
-	text-align: right;
-	padding: 2px;
-	margin-bottom: 3px;
-	color: #099;
-	border: #999 solid 1px;
+    text-align: right;
+    padding: 2px;
+    margin-bottom: 3px;
+    color: #099;
+    border: #999 solid 1px;
 }
+
 div#file_center .file_info span {
-	margin-right: 30px;
-	margin-left: 5px;
-	text-decoration: underline;
-	color: #063;
+    margin-right: 30px;
+    margin-left: 5px;
+    text-decoration: underline;
+    color: #063;
 }
+
 div#file_center .file_info .submit {
-	margin-right: 15px;
-	background-color: #A9E67B;
-	font-size: 16px;
+    margin-right: 15px;
+    background-color: #A9E67B;
+    font-size: 16px;
 }
+
 /** 用户分组 **/
 /** 编辑分组 **/
 div#group_center table.new {
-	margin: 5px;
+    margin: 5px;
 }
+
 div#group_center .new td {
-	padding: 2px;
+    padding: 2px;
 }
+
 div#group_center .new span {
-	font-size: 18px;
-	color: #F93;
-	margin-left: 10px;
-	margin-right: 10px;
+    font-size: 18px;
+    color: #F93;
+    margin-left: 10px;
+    margin-right: 10px;
 }
+
 div#group_center .new th {
-	text-align: right;
-	font-weight: normal;
+    text-align: right;
+    font-weight: normal;
 }
+
 div#group_center .new input {
-	height: 20px;
-	border: #99C solid 1px;
-	font-size: 18px;
-	padding: 1px;
+    height: 20px;
+    border: #99C solid 1px;
+    font-size: 18px;
+    padding: 1px;
 }
+
 div#group_center .new textarea {
-	height: 100px;
-	width: 300px;
-	border: #99C solid 1px;
-	padding: 2px;
-	font-size: 18px;
+    height: 100px;
+    width: 300px;
+    border: #99C solid 1px;
+    padding: 2px;
+    font-size: 18px;
 }
+
 div#group_center .new .submit {
-	width: 100px;
-	background-color: #BAF5C9;
-	padding: 2px;
-	margin: 0 15px;
-	font-size: 16px;
-	color: #00C;
-	border: #066 solid 1px;
+    width: 100px;
+    background-color: #BAF5C9;
+    padding: 2px;
+    margin: 0 15px;
+    font-size: 16px;
+    color: #00C;
+    border: #066 solid 1px;
 }
+
 /** 用户分组删除 **/
 div#group_center ul.delete {
-	margin: 5px;
+    margin: 5px;
 }
+
 div#group_center ul.delete li {
-	padding: 5px;
-	margin: 2px 0;
+    padding: 5px;
+    margin: 2px 0;
 }
+
 div#group_center ul.delete .submit {
-	background-color: #BAF5C9;
-	padding: 2px 10px;
-	font-size: 16px;
-	color: #00C;
-	border: #066 solid 1px;
+    background-color: #BAF5C9;
+    padding: 2px 10px;
+    font-size: 16px;
+    color: #00C;
+    border: #066 solid 1px;
 }
+
 /**  链接中心  **/
 div#link_center {
-	padding: 5px;
-	background-color: #ECF9ED;
-	text-align: left;
+    padding: 5px;
+    background-color: #ECF9ED;
+    text-align: left;
 }
+
 div#link_center h3 {
-	color: #3C6;
-	padding: 5px;
-	font-size: 18px;
+    color: #3C6;
+    padding: 5px;
+    font-size: 18px;
 }
+
 div#link_center .no_found {
-	font-size: 19px;
-	background-color: #FCF8F8;
-	padding: 5px;
-	margin: 5px;
-	color: #F00;
+    font-size: 19px;
+    background-color: #FCF8F8;
+    padding: 5px;
+    margin: 5px;
+    color: #F00;
 }
+
 div#link_center table.list {
-	width: 99.9%;
-	border: #999 solid 1px;
-	margin: 5px;
+    width: 99.9%;
+    border: #999 solid 1px;
+    margin: 5px;
 }
+
 div#link_center table.list thead {
-	text-align: left;
+    text-align: left;
 }
+
 div#new_center table.list thead tr {
-	text-align: left;
+    text-align: left;
 }
+
 div#link_center table.list tbody {
-	text-align: left;
-	background-color: #F8F8E9;
+    text-align: left;
+    background-color: #F8F8E9;
 }
+
 div#link_center table.list td, div#link_center table.list th {
-	padding: 2px;
+    padding: 2px;
 }
+
 div#link_center table.list tr:hover {
-	background-color: #FCF;
+    background-color: #FCF;
 }
+
 div#link_center table.list .tr_0 {
-	background-color: #E3DDC6;
+    background-color: #E3DDC6;
 }
+
 div#link_center table.list .tr_1 {
-	background-color: #CBF4BF;
+    background-color: #CBF4BF;
 }
+
 /* 创建链接 */
 div#link_center table.creat {
 }
+
 div#link_center table.creat th {
-	text-align: right;
-	padding: 4px;
+    text-align: right;
+    padding: 4px;
 }
+
 div#link_center table.creat td {
-	text-align: left;
-	padding: 4px;
+    text-align: left;
+    padding: 4px;
 }
+
 div#link_center table.creat input, div#link_center table.creat select {
-	width: 200px;
+    width: 200px;
 }
+
 div#link_center table.creat textarea {
-	width: 200px;
-	height: 90px;
+    width: 200px;
+    height: 90px;
 }
+
 div#link_center table.creat .submit {
-	background-color: #BAF5C9;
-	padding: 2px 10px;
-	margin-left: 20px;
-	font-size: 16px;
-	color: #00C;
-	border: #066 solid 1px;
+    background-color: #BAF5C9;
+    padding: 2px 10px;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #00C;
+    border: #066 solid 1px;
 }
 
 /** 设置中心 **/
 div#setting_center {
-	padding: 5px;
-	background-color: #ECF9ED;
-	text-align: left;
-}
-div#setting_center h3 {
-	color: #3C6;
-	padding: 5px;
-	font-size: 18px;
-}
-div#setting_center .super{
-	padding:10px 10px;
-}
-div#setting_center .super .submit {
-	background-color: #BAF5C9;
-	padding: 2px 10px;
-	margin-left: 5px;
-	font-size: 14px;
-	color: #00C;
-	border: #066 solid 1px;
-}
-div#setting_center table th{
-	color:#039;
-	font-weight:normal;
-	padding:3px 10px;
-	text-align:right;
-}
-div#setting_center table td{
-	padding:3px 10px;
-}
-div#setting_center table td p{
-	padding:2px 0;
-	margin:5px 0;
-}
-div#setting_center table td span{
-	margin-left:15px;
-	color:#900;
-}
-div#setting_center table td input{
-	width:220px;
-	height:22px;
-	line-height:22px;
-	font-size:17px;
-}
-div#setting_center .submit{
-	text-align:center;
-}
-div#setting_center .submit button{
-	background-color: #BAF5C9;
-	padding: 2px 30px;
-	font-size: 16px;
-	color: #00C;
-	margin-top:20px;
-	border: #066 solid 1px;
+    padding: 5px;
+    background-color: #ECF9ED;
+    text-align: left;
 }
 
-div#setting_center .team_about p{
-	padding:5px 0px;
-	margin:5px 0px;
+div#setting_center h3 {
+    color: #3C6;
+    padding: 5px;
+    font-size: 18px;
 }
-div#setting_center button.about_submit{
-	background-color: #BAF5C9;
-	padding: 2px 30px;
-	font-size: 16px;
-	margin:5px 0px;
-	color: #00C;
-	border: #066 solid 1px;	
+
+div#setting_center .super {
+    padding: 10px 10px;
+}
+
+div#setting_center .super .submit {
+    background-color: #BAF5C9;
+    padding: 2px 10px;
+    margin-left: 5px;
+    font-size: 14px;
+    color: #00C;
+    border: #066 solid 1px;
+}
+
+div#setting_center table th {
+    color: #039;
+    font-weight: normal;
+    padding: 3px 10px;
+    text-align: right;
+}
+
+div#setting_center table td {
+    padding: 3px 10px;
+}
+
+div#setting_center table td p {
+    padding: 2px 0;
+    margin: 5px 0;
+}
+
+div#setting_center table td span {
+    margin-left: 15px;
+    color: #900;
+}
+
+div#setting_center table td input {
+    width: 220px;
+    height: 22px;
+    line-height: 22px;
+    font-size: 17px;
+}
+
+div#setting_center .submit {
+    text-align: center;
+}
+
+div#setting_center .submit button {
+    background-color: #BAF5C9;
+    padding: 2px 30px;
+    font-size: 16px;
+    color: #00C;
+    margin-top: 20px;
+    border: #066 solid 1px;
+}
+
+div#setting_center .team_about p {
+    padding: 5px 0px;
+    margin: 5px 0px;
+}
+
+div#setting_center button.about_submit {
+    background-color: #BAF5C9;
+    padding: 2px 30px;
+    font-size: 16px;
+    margin: 5px 0px;
+    color: #00C;
+    border: #066 solid 1px;
 }
 
 /* 插件中心 */
 div#plugin_center {
-	padding: 5px;
-	background-color: #ECF9ED;
-	text-align: left;
+    padding: 5px;
+    background-color: #ECF9ED;
+    text-align: left;
 }
+
 div#plugin_center h3 {
-	color: #3C6;
-	padding: 5px;
-	font-size: 18px;
+    color: #3C6;
+    padding: 5px;
+    font-size: 18px;
 }
-div#plugin_center .notice{
-	background-color:#E0F5C9;
-	padding:5px 1px;
+
+div#plugin_center .notice {
+    background-color: #E0F5C9;
+    padding: 5px 1px;
 }
-div#plugin_center .notice p{
-	font-size:17px;
-	color:#0C0;
-	border:#666 solid 1px;
-	padding:5px 5px;
-	margin:2px 0px;
+
+div#plugin_center .notice p {
+    font-size: 17px;
+    color: #0C0;
+    border: #666 solid 1px;
+    padding: 5px 5px;
+    margin: 2px 0px;
 }
-div#plugin_center .notice p.error{
-	font-size:17px;
-	color:#F00;
-	border:#666 solid 1px;
-	padding:5px 5px;
-	margin:2px 0px;
+
+div#plugin_center .notice p.error {
+    font-size: 17px;
+    color: #F00;
+    border: #666 solid 1px;
+    padding: 5px 5px;
+    margin: 2px 0px;
 }
+
 div#plugin_center table {
-	margin: 5px auto;
-	width: 99.9%;
-	border: #999 solid 1px;
+    margin: 5px auto;
+    width: 99.9%;
+    border: #999 solid 1px;
 }
+
 div#plugin_center table a:visited, div#plugin_center table a:active, div#plugin_center table a:link {
-	color: #39F;
+    color: #39F;
 }
+
 div#plugin_center table a:hover {
-	color: #03C;
+    color: #03C;
 }
+
 div#plugin_center table th {
-	font-size: 16px;
-	color: #939;
-	padding: 5px;
-	text-align: left;
+    font-size: 16px;
+    color: #939;
+    padding: 5px;
+    text-align: left;
 }
+
 div#plugin_center table td {
-	padding: 5px;
-	text-align: left;
+    padding: 5px;
+    text-align: left;
 }
+
 div#plugin_center table .tr_0 {
-	background-color: #E3DDC6;
+    background-color: #E3DDC6;
 }
+
 div#plugin_center table .tr_1 {
-	background-color: #CBF4BF;
+    background-color: #CBF4BF;
 }
+
 div#plugin_center table tr.tr_1:hover, div#plugin_center table tr.tr_0:hover {
-	background-color: #FCF;
+    background-color: #FCF;
 }
 
 /*关闭页面*/
-div#closed{
-	padding: 5px;
-	background-color: #ECF9ED;
-	color: red;
+div#closed {
+    padding: 5px;
+    background-color: #ECF9ED;
+    color: red;
 }

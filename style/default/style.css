@@ -1,691 +1,696 @@
 @charset "utf-8";
 body {
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	color: #5f5f5f;
-	font: normal 12px/1.8em Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    color: #5f5f5f;
+    font: normal 12px/1.8em Arial, Helvetica, sans-serif;
 }
 
 html, .main {
-	padding: 0;
-	margin: 0;
-	background: #dedede;
+    padding: 0;
+    margin: 0;
+    background: #dedede;
 }
 
 .clr {
-	clear: both;
-	padding: 0;
-	margin: 0;
-	width: 100%;
-	font-size: 0px;
-	line-height: 0px;
+    clear: both;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-size: 0px;
+    line-height: 0px;
 }
 
 h1 {
-	margin: 0;
-	padding: 0;
-	color: #fff;
-	font: normal 40px/1.2em Arial, Helvetica, sans-serif;
-	text-transform: uppercase;
-	text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font: normal 40px/1.2em Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 h1 a, h1 a:hover {
-	color: #fff;
-	text-decoration: none;
+    color: #fff;
+    text-decoration: none;
 }
 
 h1 span {
-	color: #007236;
+    color: #007236;
 }
 
 h1 small {
-	font: normal 13px/1.2em Arial, Helvetica, sans-serif;
+    font: normal 13px/1.2em Arial, Helvetica, sans-serif;
 }
 
 h2 {
-	font: normal 24px "黑体";
-	color: #4b4b4b;
-	padding: 8px 0;
-	margin: 8px 0;
+    font: normal 24px "黑体";
+    color: #4b4b4b;
+    padding: 8px 0;
+    margin: 8px 0;
 }
 
 p {
-	margin: 8px 0;
-	padding: 0 0 8px 0;
-	font: normal 12px/1.8em "黑体";
+    margin: 8px 0;
+    padding: 0 0 8px 0;
+    font: normal 12px/1.8em "黑体";
 }
 
 a {
-	color: #7baf30;
-	text-decoration: underline;
+    color: #7baf30;
+    text-decoration: underline;
 }
 
 a:hover {
-	color: #990066;
+    color: #990066;
 }
 
 .header, .content, .menu_nav, .fbg, .footer, form, ol, ol li, ul, .content .mainbar, .content .sidebar {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
-.content_resize, .fbg_resize{
-	margin: 0 auto;
-	padding: 0 40px;
-	width: 890px;
+.content_resize, .fbg_resize {
+    margin: 0 auto;
+    padding: 0 40px;
+    width: 890px;
 }
+
 .footer_resize {
-	margin: 0 auto;
-	padding: 0px;
-	width: 970px;
+    margin: 0 auto;
+    padding: 0px;
+    width: 970px;
 }
 
 /* header */
 .header {
-	background: url(images/header_bg.jpg) repeat-x center top;
+    background: url(images/header_bg.jpg) repeat-x center top;
 }
 
 .header_resize {
-	margin: 0 auto;
-	padding: 0;
-	width: 970px;
-	height: 337px;
+    margin: 0 auto;
+    padding: 0;
+    width: 970px;
+    height: 337px;
 }
 
 .header .logo {
-	padding: 100px 0 0;
+    padding: 100px 0 0;
 }
 
 /* menu */
 .menu_nav {
-	padding-left: 20px;
-	float: left;
-	width: auto;
+    padding-left: 20px;
+    float: left;
+    width: auto;
 }
 
 .menu_nav ul {
-	list-style: none;
+    list-style: none;
 }
 
 .menu_nav ul li {
-	margin: 0 4px;
-	float: left;
+    margin: 0 4px;
+    float: left;
 }
 
 .menu_nav ul li a {
-	display: block;
-	margin: 0;
-	padding: 23px 24px;
-	color: #fff;
-	text-decoration: none;
+    display: block;
+    margin: 0;
+    padding: 23px 24px;
+    color: #fff;
+    text-decoration: none;
 }
 
 .menu_nav ul li.active a, .menu_nav ul li a:hover {
-	background: url(images/menu_a.gif) repeat top;
+    background: url(images/menu_a.gif) repeat top;
 }
 
 /* search */
 .searchform {
-	float: right;
-	width: auto;
+    float: right;
+    width: auto;
 }
 
 #formsearch {
-	margin: 0;
-	padding: 12px 20px 0 0;
+    margin: 0;
+    padding: 12px 20px 0 0;
 }
 
 #formsearch span {
-	display: block;
-	margin: 6px 0;
-	padding: 0 8px 0 11px !important;
-	padding: 0 4px 0 6px;
-	float: right;
-	width: 183px;
-	background: #fff url(images/search.gif) no-repeat top left;
+    display: block;
+    margin: 6px 0;
+    padding: 0 8px 0 11px !important;
+    padding: 0 4px 0 6px;
+    float: right;
+    width: 183px;
+    background: #fff url(images/search.gif) no-repeat top left;
 }
 
 #formsearch input.editbox_search {
-	margin: 0;
-	padding: 5px 0;
-	float: left;
-	width: 180px;
-	height: 20px;
-	border: none;
-	background: none;
-	font: normal 13px/20px Arial, Helvetica, sans-serif;
-	color: #a8acb2;
+    margin: 0;
+    padding: 5px 0;
+    float: left;
+    width: 180px;
+    height: 20px;
+    border: none;
+    background: none;
+    font: normal 13px/20px Arial, Helvetica, sans-serif;
+    color: #a8acb2;
 }
 
 #formsearch input.button_search {
-	margin: 6px 0 0 0;
-	padding: 0;
-	border: none;
-	float: right;
+    margin: 6px 0 0 0;
+    padding: 0;
+    border: none;
+    float: right;
 }
 
 /* content */
 .content_resize {
-	padding-right: 0;
-	padding-top: 16px;
-	width: 930px;
-	background-color: #fff;
+    padding-right: 0;
+    padding-top: 16px;
+    width: 930px;
+    background-color: #fff;
 }
 
 .content .mainbar {
-	float: left;
-	width: 630px;
+    float: left;
+    width: 630px;
 }
 
 .content .mainbar img {
-	margin-bottom: 10px;
-	padding: 4px;
-	border: 1px solid #b7b7b7;
-	background-color: #fff;
-	width: 100%;
-	max-width: 620px;
+    margin-bottom: 10px;
+    padding: 4px;
+    border: 1px solid #b7b7b7;
+    background-color: #fff;
+    width: 100%;
+    max-width: 620px;
 }
 
 .content .mainbar img.fl {
-	float: left;
-	margin-right: 12px;
+    float: left;
+    margin-right: 12px;
 }
-.content p{
-	font-family:  sans-serif;
-	margin: 2px 0;
+
+.content p {
+    font-family: sans-serif;
+    margin: 2px 0;
 }
 
 .content p.tag {
-	font-size: 16px;
-	background-color: #f8f8f8;
-	line-height: 22px;
-	padding: 2px 4px;
-	margin: 2px 0 4px 0;
+    font-size: 16px;
+    background-color: #f8f8f8;
+    line-height: 22px;
+    padding: 2px 4px;
+    margin: 2px 0 4px 0;
 }
 
 .content p.tag span {
-	margin: 0 2px;
+    margin: 0 2px;
 }
 
 .content .mainbar .article, .content .sidebar .gadget {
-	margin: 0;
-	padding: 0 0 16px 0;
+    margin: 0;
+    padding: 0 0 16px 0;
 }
 
 .content .sidebar {
-	float: right;
-	width: 276px;
+    float: right;
+    width: 276px;
 }
 
 ul.sb_menu {
-	width: auto;
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	color: #959595;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #959595;
 }
 
 /*ul.sb_menu1*/
 ul.sb_menu1 {
-	float: left;
-	width: 100%;
-	margin: 10px;
-	padding: 0;
-	list-style: none;
-	color: #959595;
+    float: left;
+    width: 100%;
+    margin: 10px;
+    padding: 0;
+    list-style: none;
+    color: #959595;
 }
 
 ul.sb_menu1 ul {
-	list-style: none;
+    list-style: none;
 }
 
 ul.sb_menu1 ul li {
-	margin: 0;
-	/*background: url(images/li.gif) no-repeat 0 12px;*/
+    margin: 0;
+    /*background: url(images/li.gif) no-repeat 0 12px;*/
 }
 
 ul.sb_menu1 ul li {
-	padding: 4px 0;
-	border-bottom: 1px solid #e3e3e3;
-	width: 100%;
+    padding: 4px 0;
+    border-bottom: 1px solid #e3e3e3;
+    width: 100%;
 }
 
 ul.sb_menu1 ul li a {
-	color: #5f5f5f;
-	text-decoration: none;
-	margin-left: -16px;
-	padding-left: 16px;
+    color: #5f5f5f;
+    text-decoration: none;
+    margin-left: -16px;
+    padding-left: 16px;
 }
 
 ul.sb_menu1 ul li a:hover {
-	color: #7baf30;
-	font-weight: bold;
-	background: url(images/li_a.gif) no-repeat left center;
+    color: #7baf30;
+    font-weight: bold;
+    background: url(images/li_a.gif) no-repeat left center;
 }
 
 ul.sb_menu1 ul li a:hover {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
 ul.ex_menu1 ul li a:hover {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 ul.sb_menu1 li a {
-	color: #5f5f5f;
-	text-decoration: none;
-	margin-left: -16px;
-	padding-left: 16px;
+    color: #5f5f5f;
+    text-decoration: none;
+    margin-left: -16px;
+    padding-left: 16px;
 }
 
 ul.sb_menu1 li a:hover {
-	color: #7baf30;
-	font-weight: bold;
-	background: url(images/li_a.gif) no-repeat left center;
+    color: #7baf30;
+    font-weight: bold;
+    background: url(images/li_a.gif) no-repeat left center;
 }
 
 ul.sb_menu1 li a:hover {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
 ul.ex_menu1 li a:hover {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 /*ul.sb_menu*/
 ul.ex_menu {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	color: #959595;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #959595;
 }
 
 ul.sb_menu li, ul.ex_menu li {
-	margin: 0;
-	background: url(images/li.gif) no-repeat 0 12px;
+    margin: 0;
+    background: url(images/li.gif) no-repeat 0 12px;
 }
 
 ul.sb_menu li {
-	padding: 4px 0;
-	border-bottom: 1px solid #e3e3e3;
-	width: 220px;
+    padding: 4px 0;
+    border-bottom: 1px solid #e3e3e3;
+    width: 220px;
 }
 
 ul.ex_menu li {
-	padding: 4px 0 8px;
+    padding: 4px 0 8px;
 }
 
 ul.sb_menu li a, ul.ex_menu li a {
-	color: #5f5f5f;
-	text-decoration: none;
-	margin-left: -16px;
-	padding-left: 16px;
+    color: #5f5f5f;
+    text-decoration: none;
+    margin-left: -16px;
+    padding-left: 16px;
 }
 
 ul.sb_menu li a:hover, ul.ex_menu li a:hover {
-	color: #7baf30;
-	font-weight: bold;
-	background: url(images/li_a.gif) no-repeat left center;
+    color: #7baf30;
+    font-weight: bold;
+    background: url(images/li_a.gif) no-repeat left center;
 }
 
 ul.sb_menu li a:hover {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
 ul.ex_menu li a:hover {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 /* subpages */
 .content .mainbar .comment {
-	margin: 0;
-	padding: 16px 0 0 0;
+    margin: 0;
+    padding: 16px 0 0 0;
 }
 
 .content .mainbar .comment img.userpic {
-	border: 1px solid #dedede;
-	margin: 10px 16px 0 0;
-	padding: 0;
-	float: left;
+    border: 1px solid #dedede;
+    margin: 10px 16px 0 0;
+    padding: 0;
+    float: left;
 }
 
 /* fbg */
 .fbg_resize {
-	background-color: #fff;
-	padding: 24px 40px;
+    background-color: #fff;
+    padding: 24px 40px;
 }
 
 .fbg img {
-	border: 1px solid #d6d6d6;
+    border: 1px solid #d6d6d6;
 }
 
 .fbg .col {
-	margin: 0;
-	float: left;
+    margin: 0;
+    float: left;
 }
 
 .fbg .c1 {
-	padding: 0 16px 0 0;
-	width: 296px;
+    padding: 0 16px 0 0;
+    width: 296px;
 }
 
 .fbg .c2 {
-	padding: 0 16px;
-	width: 240px;
+    padding: 0 16px;
+    width: 240px;
 }
 
 .fbg .c3 {
-	padding: 0 0 0 16px;
-	width: 290px;
+    padding: 0 0 0 16px;
+    width: 290px;
 }
 
 .fbg .c1 img {
-	margin: 8px 16px 4px 0;
-	float: left;
+    margin: 8px 16px 4px 0;
+    float: left;
 }
 
 /* footer */
 .footer {
-	padding: 16px;
+    padding: 16px;
 }
 
 .footer p.lf {
-	margin: 0;
-	padding: 4px 0;
-	float: right;
-	width: auto;
-	line-height: 1.5em;
+    margin: 0;
+    padding: 4px 0;
+    float: right;
+    width: auto;
+    line-height: 1.5em;
 }
 
 ul.fmenu {
-	margin: 0;
-	padding: 2px 0;
-	list-style: none;
-	float: left;
-	width: auto;
+    margin: 0;
+    padding: 2px 0;
+    list-style: none;
+    float: left;
+    width: auto;
 }
 
 ul.fmenu li {
-	margin: 0;
-	padding: 0 4px;
-	float: left;
+    margin: 0;
+    padding: 0 4px;
+    float: left;
 }
 
 ul.fmenu li a {
-	color: #5f5f5f;
-	text-decoration: none;
-	padding: 2px 6px;
+    color: #5f5f5f;
+    text-decoration: none;
+    padding: 2px 6px;
 }
 
 ul.fmenu li a:hover, ul.fmenu li.active a {
-	color: #7baf30;
+    color: #7baf30;
 }
 
 ul.fmenu li a:hover {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
 /* form */
 ol {
-	list-style: none;
+    list-style: none;
 }
 
 ol li {
-	display: block;
-	clear: both;
+    display: block;
+    clear: both;
 }
 
 ol li label {
-	display: block;
-	margin: 0;
-	padding: 16px 0 0 0;
+    display: block;
+    margin: 0;
+    padding: 16px 0 0 0;
 }
 
 ol li input.text {
-	width: 480px;
-	border: 1px solid #c0c0c0;
-	margin: 2px 0;
-	padding: 5px 2px;
-	height: 16px;
-	background: #fff;
+    width: 480px;
+    border: 1px solid #c0c0c0;
+    margin: 2px 0;
+    padding: 5px 2px;
+    height: 16px;
+    background: #fff;
 }
 
 ol li textarea {
-	width: 480px;
-	border: 1px solid #c0c0c0;
-	margin: 2px 0;
-	padding: 2px;
-	background: #fff;
+    width: 480px;
+    border: 1px solid #c0c0c0;
+    margin: 2px 0;
+    padding: 2px;
+    background: #fff;
 }
 
 ol li .send {
-	margin: 16px 0 0 0;
+    margin: 16px 0 0 0;
 }
 
 .clear {
-	clear: both;
+    clear: both;
 }
 
 .right {
-	float: right;
+    float: right;
 }
 
 /* login */
 div#login form {
-	margin: 20px;
+    margin: 20px;
 }
 
 div#login label {
-	display: block;
-	color: #797979;
-	font-weight: 700;
-	line-height: 1.6em;
+    display: block;
+    color: #797979;
+    font-weight: 700;
+    line-height: 1.6em;
 }
 
 div#login div {
-	margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 div#login div span {
-	margin-left: 10px;
-	color: #b1b1b1;
-	font-size: 13px;
-	font-style: italic;
+    margin-left: 10px;
+    color: #b1b1b1;
+    font-size: 13px;
+    font-style: italic;
 }
 
 div#login div span.error {
-	color: #e46c6e;
+    color: #e46c6e;
 }
 
 div#login .notice {
-	text-align: center;
-	color: #900;
-	font-size: 16px;
+    text-align: center;
+    color: #900;
+    font-size: 16px;
 }
 
 div#login p.post_error {
-	text-align: center;
-	color: red;
-	font-size: 16px;
+    text-align: center;
+    color: red;
+    font-size: 16px;
 }
 
 div#login {
-	width: 500px;
-	height: auto;
-	margin: 20px auto 20px auto;
+    width: 500px;
+    height: auto;
+    margin: 20px auto 20px auto;
 }
 
 div#login p.notice {
-	text-align: center;
-	font-size: 16px;
-	color: #936;
+    text-align: center;
+    font-size: 16px;
+    color: #936;
 }
 
 div#login #send {
-	background: #6f9ff1;
-	color: #fff;
-	font-weight: 700;
-	font-style: normal;
-	border: 0;
-	font-size: 1.3em;
-	cursor: pointer;
+    background: #6f9ff1;
+    color: #fff;
+    font-weight: 700;
+    font-style: normal;
+    border: 0;
+    font-size: 1.3em;
+    cursor: pointer;
 }
 
 div#login #send:hover {
-	background: #79a7f1;
+    background: #79a7f1;
 }
 
 div#login .input {
-	width: 220px;
-	padding: 6px;
-	color: #949494;
-	font-family: Arial, Verdana, Helvetica, sans-serif;
-	font-size: 11px;
-	border: 1px solid #cecece;
+    width: 220px;
+    padding: 6px;
+    color: #949494;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 11px;
+    border: 1px solid #cecece;
 }
 
 div#login input.error {
-	background: #f8dbdb;
-	border-color: #e77776;
+    background: #f8dbdb;
+    border-color: #e77776;
 }
 
 div#login .div_notice {
-	margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 /** 注册样式 **/
 div#register {
-	width: 500px;
-	height: auto;
-	margin: 20px auto 20px auto;
+    width: 500px;
+    height: auto;
+    margin: 20px auto 20px auto;
 }
 
 div#register form {
-	margin: 20px;
+    margin: 20px;
 }
 
 div#register form label {
-	display: block;
-	color: #797979;
-	font-weight: 700;
-	line-height: 1.6em;
+    display: block;
+    color: #797979;
+    font-weight: 700;
+    line-height: 1.6em;
 }
 
 div#register .input {
-	width: 220px;
-	padding: 6px;
-	color: #949494;
-	font-family: Arial, Verdana, Helvetica, sans-serif;
-	font-size: 11px;
-	border: 1px solid #cecece;
+    width: 220px;
+    padding: 6px;
+    color: #949494;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 11px;
+    border: 1px solid #cecece;
 }
 
 div#register input.error {
-	background: #f8dbdb;
-	border-color: #e77776;
+    background: #f8dbdb;
+    border-color: #e77776;
 }
 
 div#register div {
-	margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 div#register div span {
-	margin-left: 10px;
-	color: #b1b1b1;
-	font-size: 13px;
-	font-style: italic;
+    margin-left: 10px;
+    color: #b1b1b1;
+    font-size: 13px;
+    font-style: italic;
 }
 
 div#register div span.error {
-	color: #e46c6e;
+    color: #e46c6e;
 }
 
 div#register #send {
-	background: #6f9ff1;
-	color: #fff;
-	font-weight: 700;
-	font-style: normal;
-	border: #039 solid 1px;
-	border: 0;
-	padding: 3px;
-	font-size: 1.3em;
-	cursor: pointer;
+    background: #6f9ff1;
+    color: #fff;
+    font-weight: 700;
+    font-style: normal;
+    border: #039 solid 1px;
+    border: 0;
+    padding: 3px;
+    font-size: 1.3em;
+    cursor: pointer;
 }
 
 div#register #send:hover {
-	background: #79a7f1;
+    background: #79a7f1;
 }
 
 div#register .close {
-	color: #903;
-	border: #900 solid 1px;
-	padding: 5px;
+    color: #903;
+    border: #900 solid 1px;
+    padding: 5px;
 }
 
 div#register .hasReg {
-	color: #039;
-	border: #900 solid 1px;
-	padding: 5px;
+    color: #039;
+    border: #900 solid 1px;
+    padding: 5px;
 }
 
 div#register #vcodeInfo {
-	padding: 3px;
-	border: #C6E8A4 solid 1px;
+    padding: 3px;
+    border: #C6E8A4 solid 1px;
 }
 
 div#register #vcodeInfo.error {
-	padding: 3px;
-	color: #F00;
+    padding: 3px;
+    color: #F00;
 }
 
 div#register .err {
-	color: #F00;
+    color: #F00;
 }
 
 div#register .notice {
-	color: #C63;
+    color: #C63;
 }
 
 /* 404 page */
 .no_found {
-	padding: 50px;
-	text-align: center;
+    padding: 50px;
+    text-align: center;
 }
 
 .no_found .error {
-	font-size: 22px;
-	color: #F00;
+    font-size: 22px;
+    color: #F00;
 }
 
 /* 首页其他样式 */
 .home p {
-	font-size: 15px;
-	line-height: 18px;
-	padding: 1px 0;
-	margin: 2px 0;
+    font-size: 15px;
+    line-height: 18px;
+    padding: 1px 0;
+    margin: 2px 0;
 }
 
 /* NAV 分页 */
 
 /**分页链接*/
-.info_nav{
-	font-size: 17px;
-	margin:20px 10px;
-	text-align:center;
+.info_nav {
+    font-size: 17px;
+    margin: 20px 10px;
+    text-align: center;
 }
-.info_nav a{
-	border:#999 solid 1px;
-	margin:2px;
-	padding:2px 5px;
-	text-decoration: none;
+
+.info_nav a {
+    border: #999 solid 1px;
+    margin: 2px;
+    padding: 2px 5px;
+    text-decoration: none;
 }
-.info_nav a:hover{
-	border:#999 dotted 1px;
-	background-color:#D6EAFA;
+
+.info_nav a:hover {
+    border: #999 dotted 1px;
+    background-color: #D6EAFA;
 }
-.info_nav a.now{
-	color: #672dff;
-	background-color: #d7ffc7;
+
+.info_nav a.now {
+    color: #672dff;
+    background-color: #d7ffc7;
 }
