@@ -153,11 +153,13 @@
 	 */
 	function encrypt($encrypt, $key = ''){
 		global $zxsys;
-		$key = md5($key . $zxsys->get_setting("site_key"));
-		$iv = mcrypt_create_iv(mcrypt_get_iv_size(MCRYPT_RIJNDAEL_256, MCRYPT_MODE_ECB), MCRYPT_RAND);
-		$passcrypt = mcrypt_encrypt(MCRYPT_RIJNDAEL_256, $key, $encrypt, MCRYPT_MODE_ECB, $iv);
-		$encode = base64_encode($passcrypt);
-		return $encode;
+        $key = md5($key.$zxsys->get_setting("site_key"));
+        $aesKey = substr($key, 0, 16);
+        $aesIv = substr($key, 16, 16);
+
+        $passEncrypt = (string) openssl_encrypt($encrypt, 'AES-128-CBC', $aesKey, OPENSSL_RAW_DATA, $aesIv);
+
+        return base64_encode($passEncrypt);
 	}
 
 	/**
@@ -170,9 +172,10 @@
 		global $zxsys;
 		$key = md5($key . $zxsys->get_setting("site_key"));
 		$decoded = base64_decode($decrypt);
-		$iv = mcrypt_create_iv(mcrypt_get_iv_size(MCRYPT_RIJNDAEL_256, MCRYPT_MODE_ECB), MCRYPT_RAND);
-		$decrypted = mcrypt_decrypt(MCRYPT_RIJNDAEL_256, $key, $decoded, MCRYPT_MODE_ECB, $iv);
-		return $decrypted;
+		$aesKey = substr($key,0,16);
+		$aesIv = substr($key,16,16);
+
+        return (string)openssl_decrypt($decoded, 'AES-128-CBC', $aesKey, OPENSSL_RAW_DATA, $aesIv);
 	}
 
 	/**

@@ -4,6 +4,7 @@
 ## 使用说明
 
 * 初次使用时先导入数据到mysql数据库
+* `cp config-simple.php config.php`
 * 修改配置文件填写数据库信息
 * 手动修改数据库中setting的网站URL信息，不修改将导致页面跳转
 * 进入后台修改导航链接
@@ -21,4 +22,4 @@
 
 ## 演示及说明
 
-* http://www.loveyu.net/TeamHome
+* https://demo.loveyu.net/TeamHome/
